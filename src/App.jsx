@@ -122,11 +122,9 @@ import './App.css'
 export default App
 */
 import Header from "./header.jsx"
-import MainContent from './mainContent.jsx'
-import Footer from './footer.jsx'
-import Main from "./components/Main.jsx"
-import Navbar from './components/Navbar.jsx'
+import MainComponent from "./components/MainComponent.jsx"
 import { createRoot } from "react-dom/client"
+import "./App.css"
 
 const root = createRoot(document.getElementById("root"))
 
@@ -141,7 +139,7 @@ function Page() {
         <>
            <div className='page'>
             <Header />
-            <MainContent />
+            <MainComponent />
             </div>
         </>
     )

@@ -1,4 +1,4 @@
-function MainContent() {
+function MainComponent() {
     return (
         <main>
             <div className="main-part">
@@ -18,4 +18,4 @@ function MainContent() {
     )
 }
 
-export default MainContent;
+export default MainComponent;

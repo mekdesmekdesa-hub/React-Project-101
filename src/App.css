@@ -5,6 +5,11 @@ height: 550px;
 opacity: 1;
 margin: 5% 0 0 30% ;
 display: block;
+  background-image: url("./assets/react.svg");
+  background-size: 350px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 85%;
 }
 
 .header-container{
@@ -52,19 +57,10 @@ display: block;
 }
 .main-part{
   
-  background-image: url("./assets/react.svg");
-  background-repeat: no-repeat;
-  background-position-x: right;
-  background-position-y: center;
+
   width: 550px;
   height: 400px;
-
-  top: 198px;
-  left:418px;
   
-  
-  
-  background-color: rgb(255, 255, 255);
   
 
 }
@@ -76,12 +72,22 @@ display: block;
   background-color:#282D35;
   color: rgb(255, 255, 255);
   opacity: 0.9;
+  font-family: "Inter", sans-serif; 
+  font-weight: 400;
 
 
 }
 
 .main-part-text h1{
-  padding: 20px;
+  padding: 40px 0 0 70px ;
+}
+.main-part-text ul{
+  padding: 20px 20px 20px 90px ;
+  font-size: large;
+}
+.main-part-text li::marker{
+  font-size: 1.6em;
+  color: #61DAFB;
 }
 /*.counter {
   font-size: 16px;
