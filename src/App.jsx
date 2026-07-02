@@ -4,7 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 
-function App() {
+/*function App() {
   const [count, setCount] = useState(0)
 
   return (
@@ -118,5 +118,37 @@ function App() {
     </>
   )
 }
+
+export default App
+*/
+import Header from "./header.jsx"
+import MainContent from './mainContent.jsx'
+import Footer from './footer.jsx'
+import Main from "./components/Main.jsx"
+import Navbar from './components/Navbar.jsx'
+import { createRoot } from "react-dom/client"
+
+const root = createRoot(document.getElementById("root"))
+
+
+
+
+
+root.render(/*App component rendered here*/)
+
+function Page() {
+    return (
+        <>
+           <div className='page'>
+            <Header />
+            <MainContent />
+            </div>
+        </>
+    )
+}
+
+root.render(
+    <Page />
+)
 
 export default App
