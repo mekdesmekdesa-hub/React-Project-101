@@ -121,32 +121,20 @@ import './App.css'
 
 export default App
 */
+import { Phone, Mail, MapPin } from "lucide-react";
 import Header from "./header.jsx"
 import MainComponent from "./components/MainComponent.jsx"
 import { createRoot } from "react-dom/client"
 import "./App.css"
 
-const root = createRoot(document.getElementById("root"))
 
-
-
-
-
-root.render(/*App component rendered here*/)
-
-function Page() {
-    return (
-        <>
-           <div className='page'>
-            <Header />
-            <MainComponent />
-            </div>
-        </>
-    )
+function App() {
+  return (
+    <div className="page">
+      <img src="src/assets/corner3.png" alt="corner-image" className="corner-image"/>
+      <Header />
+      <MainComponent />
+    </div>
+  )
 }
-
-root.render(
-    <Page />
-)
-
 export default App

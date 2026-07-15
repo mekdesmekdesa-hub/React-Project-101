@@ -1,4 +1,132 @@
+.page{
+ width:800px;
+ height:400px;
+ position: relative;
+ background-image:       linear-gradient(to right,rgb(99, 81, 75),rgb(218, 144, 140));
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 20px 40px rgba(10, 10, 10, 0.1);
+  padding: 10px;
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 
+}
+.corner-image{
+  position: absolute;
+  top: 140px;
+  right:-30px;
+  
+  transform:rotate(180deg);
+  width: 300px;
+  height: 300px
+  
+}
+.header-container{
+  background:linear-gradient(to top,rgb(252, 252, 201,0.1),rgb(150, 109, 5,0.1));
+  border-radius: 8px;
+  display: block;
+  align-items: center;
+  line-height: 0.5;
+
+}
+.company-logo{
+  max-width: 10%;
+}
+.company-logo-image{
+  width: 200px;
+  height: 100px;
+  opacity: 0.8;
+  border-radius: 20px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.company-name{
+  font-size: 14px;
+  font-weight: bold;
+  color: #120000;
+  font-family: Georgia, 'Times New Roman', Times, serif   ;
+  padding: 0px;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+.company-slogan{
+  font-size: 20px;
+  color: #120000;
+  font-family: Georgia, 'Times New Roman', Times, serif   ;
+  margin-left: 40px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.qr-code-image{
+  width: 100px;
+  height: 100px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.main-component{
+  grid-column: 2/4;
+  margin-left: 70px;
+  margin-top: 40px;
+}
+.name-container{
+  margin-top: 10px;
+  line-height: 0.5;
+}
+.name-container h2{
+  font-size: 40px;
+  color: #120000;
+  font-family: Georgia, 'Times New Roman', Times, serif   ;
+  margin: 0px;
+  padding: auto;  
+  padding-top: 20px;
+  
+
+}
+.title-container{
+  display: flex;
+  gap:5px;
+  
+}
+.name-container h3{
+  font-size: 20px;
+  color: #120000;
+  font-family: Georgia, 'Times New Roman', Times, serif   ;
+  margin-top: 15px;
+  padding: auto;  
+  font-weight: lighter;
+  
+}
+.line{
+  width: 50%;
+  height: 2px;
+  background:linear-gradient(to right,rgb(211, 163, 6),brown);  
+  margin-top: 20px;
+  
+}
+.contact-container{
+  margin-top: 30px;
+  line-height: 1.5;
+  font-family:'Times New Roman', Times, serif;
+  color: #000000;
+  font-size: 22px;
+  font-weight: 400;
+}
+.contact-container ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.contact-container li{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.contact-container li svg{
+  margin-right: 10px;
+  font-size: 98px;
+  color: rgb(123, 21, 5);
+}
 /*.counter {
   font-size: 16px;
   padding: 5px 10px;
